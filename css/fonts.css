@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Larsseit';
+    font-weight: 400;
+    font-style: normal;
+    src:
+        local('Larsseit'),
+        url('../fonts/LarsseitRegular.woff2') format('woff2'),
+        url('../fonts/LarsseitRegular.woff') format('woff'),
+        url('../fonts/LarsseitRegular.otf') format('otf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    font-weight: 500;
+    font-style: normal;
+    src:
+        local('Larsseit-Medium'),
+        url('../fonts/LarsseitMedium.woff2') format('woff2'),
+        url('../fonts/LarsseitMedium.woff') format('woff'),
+        url('../fonts/LarsseitMedium.otf') format('otf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    font-weight: 700;
+    font-style: normal;
+    src:
+        local('Larsseit-Bold'),
+        url('../fonts/LarsseitBold.woff2') format('woff2'),
+        url('../fonts/LarsseitBold.woff') format('woff'),
+        url('../fonts/LarsseitBold.otf') format('otf');
+    font-display: swap;
+}

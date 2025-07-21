@@ -1,0 +1,105 @@
+:root {
+    --base-font: 'Larsseit', -apple-system, BlinkMacSystemFont, '.AppleSystemUIFont',
+        'Segoe UI', 'Ubuntu', 'Cantarell', 'Roboto',
+        'Helvetica Neue', 'Arial', system-ui, sans-serif;
+    --base-font-size: 1.5rem;
+    --base-line-height: 1.94rem;
+    --base-font-weight: 400;
+    --base-letter-spacing: 0rem;
+    --base-color: rgb(34, 53, 111);
+    --font-post-color: color: rgba(34, 53, 111, 0.5);
+    --orange-color: rgb(250, 182, 62);
+    --aqua-color: rgb(98, 208, 223);
+}
+
+body {
+    font-family: var(--base-font);
+    font-size: var(--base-font-size);
+    line-height: var(--base-line-height);
+    font-weight: var(--base-font-weight);
+    letter-spacing: var(--base-letter-spacing);
+    color: var(--base-color);
+    font-style: normal;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.94rem;
+    letter-spacing: -0.035rem;
+}
+
+h2 {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.06rem;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.63rem;
+    letter-spacing: -0.006rem;
+}
+
+a {
+    display: inline-block;
+    font-weight: 700;
+
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    color: var(--aqua-color);
+    line-height: 2rem;
+    transition: color 0.3s;
+    letter-spacing: -0.035rem;
+}
+
+.logo:hover,
+.logo:active,
+.logo:focus {
+    color: var(--base-color);
+}
+
+.contact-link {
+    border: none;
+    border-radius: 50px;
+    background-color: var(--aqua-color);
+    color: rgb(255, 255, 255);
+    font-size: 0.88rem;
+    line-height: 1.13em;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    padding: 17px 30px;
+}
+
+.contact-link:hover,
+.contact-link:active,
+.contact-link:focus {
+    background-color: var(--base-color);
+}
+
+.cta-link {
+    border: none;
+    font-size: 1rem;
+    line-height: 1.31rem;
+    letter-spacing: 0.1rem;
+    background-color: transparent;
+    color: var(--orange-color);
+    transition: background-color 0.3s, color 0.3s;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
+
+.cta-link:hover,
+.cta-link:active,
+.cta-link:focus {
+    color: rgb(255, 255, 255);
+    background-color: var(--orange-color);
+}
