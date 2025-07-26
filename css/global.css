@@ -7,8 +7,15 @@
     --base-font-weight: 400;
     --base-letter-spacing: 0rem;
     --base-color: rgb(34, 53, 111);
-    --font-post-color: color: rgba(34, 53, 111, 0.5);
+    --font-post-color: rgba(34, 53, 111, 0.5);
     --orange-color: rgb(250, 182, 62);
+    --mistyrose-color: rgb(255, 226, 222);
+    --greenyellow-color: rgb(196, 231, 105);
+    --royalblue-color: rgb(0, 82, 193);
+    --midnightblue-color: rgb(34, 53, 111);
+    --lavender-color: rgb(222, 225, 255);
+    --blueviolet-color: rgb(143, 0, 255);
+    --mediumseagreen-color: rgb(60, 179, 113);
     --aqua-color: rgb(98, 208, 223);
 }
 
@@ -26,7 +33,7 @@ h1 {
     font-size: 3rem;
     font-weight: 700;
     line-height: 3.94rem;
-    letter-spacing: -0.035rem;
+    letter-spacing: -0.105rem;
 }
 
 h2 {
@@ -39,7 +46,7 @@ h3 {
     font-size: 2rem;
     font-weight: 700;
     line-height: 2.63rem;
-    letter-spacing: -0.006rem;
+    letter-spacing: -0.012rem;
 }
 
 a {
@@ -49,7 +56,7 @@ a {
 }
 
 .wrapper {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -58,7 +65,7 @@ a {
     color: var(--aqua-color);
     line-height: 2rem;
     transition: color 0.3s;
-    letter-spacing: -0.035rem;
+    letter-spacing: -0.0525rem;
 }
 
 .logo:hover,

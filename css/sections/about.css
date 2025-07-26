@@ -1,0 +1,40 @@
+.about {
+    padding-top: 150px;
+    padding-bottom: 76px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.about__title {
+    position: absolute;
+    left: 0;
+    margin-left: 106px;
+}
+
+.about__text {
+    flex-basis: 592px;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+@media (max-width:1200px) {
+    .about {
+        padding: 30px 20px;
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .about__title {
+        position: static;
+        margin-left: 0;
+        justify-self: center;
+    }
+
+    .about__text {
+        flex-basis: 100%;
+        text-align: center;
+    }
+}

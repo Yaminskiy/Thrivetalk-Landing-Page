@@ -21,7 +21,7 @@ To view the landing page:
 1. Clone or download this repository.
 2. Open `index.html` in any modern browser.
 
-No build tools or dependencies are required — it's a static HTML/CSS/JS site.
+No build tools or dependencies are required — it's a static HTML/CSS site.
 
 ---
 
@@ -34,8 +34,7 @@ No build tools or dependencies are required — it's a static HTML/CSS/JS site.
 
 ## 📸 Preview
 
-![Thrivetalk Preview](img/Thumbnail.png)  
-*Add a screenshot or a gif here if desired.*
+![Thrivetalk Preview](img/Thumbnail.png)
 
 ---
 

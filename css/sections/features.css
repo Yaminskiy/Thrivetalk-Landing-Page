@@ -1,0 +1,68 @@
+.features__title {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--font-post-color);
+    margin-bottom: 24px;
+}
+
+.features__item-title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.features__top {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    margin-bottom: 120px;
+}
+
+.features__top-item {
+    height: 360px;
+    padding-top: 95px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.features__top-item1 {}
+
+.features__top-item1:hover,
+.features__top-item1:focus {
+    background-image: url('../../img/features/Nutrition.png');
+    cursor: pointer;
+}
+
+.features__top-item2 {}
+
+.features__top-item3 {}
+
+.features__top-item4 {}
+
+.features__top-item--mistyrose {
+    background-color: var(--mistyrose-color);
+}
+
+.features__top-item--greenyellow {
+    background-color: var(--greenyellow-color);
+}
+
+.features__top-item--aqua {
+    background-color: var(--aqua-color);
+}
+
+.features__top-item--royalblue {
+    background-color: var(--royalblue-color);
+}
+
+@media (max-width:1200px) {
+    .features__top {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .features__top-item {
+        height: 100px;
+        padding-top: 10px;
+    }
+}

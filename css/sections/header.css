@@ -51,6 +51,7 @@
     margin-top: 50px;
     margin-bottom: 80px;
     width: 485px;
+    text-transform: uppercase;
 }
 
 .header__description {
@@ -72,6 +73,10 @@
             url('../../img/bg-header/bg-header@2x.png') bottom right no-repeat,
             url('../../img/bg-header/bg-header2@2x.png') 85% -90% no-repeat,
             linear-gradient(to right, rgb(244, 249, 226) 75%, rgb(255, 255, 255) 75% 100%);
+        background-size:
+            30% auto,
+            20% auto,
+            100% auto;
     }
 
 }
@@ -84,6 +89,10 @@
             url('../../img/bg-header/bg-header@3x.png')bottom right no-repeat,
             url('../../img/bg-header/bg-header2@3x.png')85% -90% no-repeat,
             linear-gradient(to right, rgb(244, 249, 226) 75%, rgb(255, 255, 255) 75% 100%);
+        background-size:
+            30% auto,
+            20% auto,
+            100% auto;
     }
 
 }
